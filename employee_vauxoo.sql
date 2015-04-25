@@ -55,6 +55,9 @@ CREATE TABLE employee_department (
 
 ALTER TABLE public.employee_department OWNER TO postgres;
 
+--
+-- Name: employee_hobby; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
 
 CREATE TABLE employee_hobby (
     "ID" character varying(10) NOT NULL,
@@ -88,6 +91,20 @@ INSERT INTO employee_department VALUES (NULL, 'Dto. de Recursos Financieros', 'S
 
 
 --
+-- Data for Name: employee_hobby; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO employee_hobby VALUES ('09835FJSCS', 'Ejercicio', 'Personas que les gusta ejercitar su cuerpo');
+INSERT INTO employee_hobby VALUES ('09835FJSCS', 'Jugar Video-Juegos', 'Personas que se distraen por ratos largos en los video juegos ');
+INSERT INTO employee_hobby VALUES ('23839FHSNR', 'Escuchar Musica', 'Personas que les gusta escuchar musica para relajarse');
+INSERT INTO employee_hobby VALUES ('23839FHSNR', 'Ejercicio', 'Personas que les gusta ejercitar su cuerpo');
+INSERT INTO employee_hobby VALUES ('03945JFSCC', 'Jugar Video-Juegos', 'Personas que se distraen por ratos largos en los video juegos');
+INSERT INTO employee_hobby VALUES ('03945JFSCC', 'Escuchar Musica', 'Personas que les gusta escuchar musica para relajarse');
+INSERT INTO employee_hobby VALUES ('18238FVDSF', 'Ejercicio', 'Personas que les gusta ejercitar su cuerpo');
+INSERT INTO employee_hobby VALUES ('18238FVDSF', 'Jugar Video-Juegos', 'Personas que se distraen por ratos largos en los video juegos');
+
+
+--
 -- Name: employee_department_ID_key; Type: CONSTRAINT; Schema: public; Owner: postgres; Tablespace: 
 --
 
@@ -116,4 +133,5 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
+
 
