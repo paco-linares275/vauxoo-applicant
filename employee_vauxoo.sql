@@ -60,10 +60,10 @@ ALTER TABLE public.employee_department OWNER TO postgres;
 -- Data for Name: employee; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO employee VALUES ('09835FJSCS', 'Carolina', 'Linares', 'Francisco Linares');
-INSERT INTO employee VALUES ('23839FHSNR', 'Rogger', 'Pérez', 'Francisco Linares');
-INSERT INTO employee VALUES ('03945JFSCC', 'Hermes', 'Nuñes', 'Daniel Romero');
-INSERT INTO employee VALUES ('18238FVDSF', 'Carlos', 'Rangel', 'Francisco Linares');
+INSERT INTO employee VALUES ('09835FJSCS', 'Carolina', 'Linares');
+INSERT INTO employee VALUES ('23839FHSNR', 'Rogger', 'Pérez');
+INSERT INTO employee VALUES ('03945JFSCC', 'Hermes', 'Nuñes');
+INSERT INTO employee VALUES ('18238FVDSF', 'Carlos', 'Rangel',);
 
 
 --
