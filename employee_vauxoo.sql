@@ -37,6 +37,7 @@ CREATE TABLE employee (
     "ID" character varying(10) NOT NULL,
     "First Name" text,
     "Last Name" text,
+    jefe text
 );
 
 
@@ -72,10 +73,10 @@ ALTER TABLE public.employee_hobby OWNER TO postgres;
 -- Data for Name: employee; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO employee VALUES ('09835FJSCS', 'Carolina', 'Linares');
-INSERT INTO employee VALUES ('23839FHSNR', 'Rogger', 'Pérez');
-INSERT INTO employee VALUES ('03945JFSCC', 'Hermes', 'Nuñes');
-INSERT INTO employee VALUES ('18238FVDSF', 'Carlos', 'Rangel');
+INSERT INTO employee VALUES ('09835FJSCS', 'Carolina', 'Linares', 'Francisco Linares');
+INSERT INTO employee VALUES ('23839FHSNR', 'Rogger', 'Pérez', 'Francisco Linares');
+INSERT INTO employee VALUES ('03945JFSCC', 'Hermes', 'Nuñes', 'Daniel Romero');
+INSERT INTO employee VALUES ('18238FVDSF', 'Carlos', 'Rangel', 'Francisco Linares');
 
 
 --
@@ -133,5 +134,4 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 --
 -- PostgreSQL database dump complete
 --
-
 
